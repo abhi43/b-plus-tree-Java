@@ -14,6 +14,7 @@ We have used Visual Studio code for implementing and testing the functions. Late
 ## Methods in detail 
 1. insert() method will used to when we want to insert first record and create a new first leaf page and updating header when split has occurred in an index page. 
 2. _insert() will called when we want to insert a leaf node into a tree and update index and leaf pages in case of split. 
+
 Note - All the 3 methods are in src\btree\BTreeFile.java
 
 
